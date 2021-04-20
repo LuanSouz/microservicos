@@ -11,8 +11,8 @@ import javax.persistence.Id;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-    @Entity
-    public class Payment {
+@Entity
+public class Payment {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

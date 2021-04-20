@@ -3,7 +3,6 @@ package com.hr.payroll.payroll.controller;
 import com.hr.payroll.payroll.entity.Payment;
 import com.hr.payroll.payroll.service.PaymentService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
